@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html ng-app="angularWithTS">
+<head>
+    <title>AngularJS With TypeScript</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">Click the following button to get your favorite tracks.</div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div ng-view="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="app/Route.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/service/PlayListService.js"></script>
+    <script src="app/Controller/tsDemoController.js"></script>
+</body>
+</html>
