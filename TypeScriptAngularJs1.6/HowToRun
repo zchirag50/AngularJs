@@ -5,5 +5,5 @@
 3. open browser and past http://localhost:8080/index.htm URL.
 
 Note- check for tsconfig.json file.
-Also we need to configure taskrunner for converting ts file to js file
+Also we need to configure task runner for converting ts file to js file.(task.json)
   
