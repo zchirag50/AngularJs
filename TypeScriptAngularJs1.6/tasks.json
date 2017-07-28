@@ -1,3 +1,4 @@
+//No need to add this file.. webpack.config.js file do all work same.
 {
     // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
