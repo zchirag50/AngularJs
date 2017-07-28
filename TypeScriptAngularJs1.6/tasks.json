@@ -1,7 +1,5 @@
 //No need to add this file.. webpack.config.js file do all work same.
-{
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
+{   
     "version": "0.1.0",
     "command": "tsc",
     "isShellCommand": true,
