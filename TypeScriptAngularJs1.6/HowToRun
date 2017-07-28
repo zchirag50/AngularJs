@@ -1,5 +1,8 @@
-1. Create Webpack bundle.js file using below command. 
+1. Create Webpack bundle.js file using below command. (this is not ideal approch.)
   >webpack app.ts bundle.js
+  alernative solition:-
+   a. add webpack.config.js file.(install typescript, webpack and ts-loader -- see in package.json)
+   b. run >webpack command. (you can create task in script tag in package.json also)
 2. open http server using below command. By default this server run on localhost:8080.
   >http-server
 3. open browser and past http://localhost:8080/index.htm URL.
